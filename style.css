@@ -1,0 +1,91 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;  
+}
+
+h1, h2{
+    color: #ff6b28;
+}
+
+h1{
+    margin-bottom: 56px;
+    font-size: 48px;
+}
+
+h2{
+    margin-bottom: 36px;
+    font-size: 28px;
+}
+
+ul, ol{
+    margin-bottom: 40px;
+}
+
+li, p{
+    margin-bottom: 13px;
+    line-height: 28px;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.topo{
+    background-color: #ff6b28;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.imagem-bolo>img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 455px;
+}
+
+.conteudo{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.botao-comprar{
+    background-color: #ff6b28;
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: url("./imagens/cursor_ingredientes.png"), default;
+}
+
+.card{
+    padding: 60px;
+    margin-top: 48px;
+    border-radius: 18px;
+}
+
+.card:hover, .botao-comprar:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.rodape{
+    background-color: #ff6b28;
+    padding: 28px;
+    color: #fff;
+}
+
+.rodape-texto{
+    max-width: 460px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+}
